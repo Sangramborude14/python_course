@@ -1,0 +1,11 @@
+import numpy as np
+
+mark_list = np.array( [45, 78, 92, 60, 55])
+print(mark_list)
+print("increasing marks of all who scored less than 60")
+mark_list[mark_list < 60] += 5
+print(mark_list)
+print(f"{mark_list.sum()/len(mark_list)} is the mean")
+
+
+
