@@ -1,0 +1,6 @@
+import pandas as pd
+data = {"NAME":[ 'Tejasv', 'Rahul', 'Priya', 'Anjali'],
+        "AGE": [20, 19, 21, 19],
+        "BRANCH":['Electrical', 'CSE', 'CSE', 'ECE']}
+df = pd.DataFrame(data,index = ['😒','😃','😡','😑'])
+print(df[df["BRANCH"] == "Electrical"])
