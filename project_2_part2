@@ -4,3 +4,4 @@ data = {"NAME":[ 'Tejasv', 'Rahul', 'Priya', 'Anjali'],
         "BRANCH":['Electrical', 'CSE', 'CSE', 'ECE']}
 df = pd.DataFrame(data,index = ['😒','😃','😡','😑'])
 print(df[df["BRANCH"] == "Electrical"])
+print(df.describe())
